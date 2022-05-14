@@ -6,5 +6,5 @@ export interface HeadingProps {
 }
 
 export const Heading = (props: HeadingProps) => {
-  return <div>{props.text}</div>;
+  return <div className="text-align-center heading-style">{props.text}</div>;
 };

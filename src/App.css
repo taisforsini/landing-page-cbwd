@@ -1,5 +1,31 @@
 .App-header {
   background-repeat: no-repeat;
-  font-size: calc(10px + 2vmin);
-  color: black;
+}
+
+.image-1 {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("/public/images/firstSection.png");
+}
+
+.image-2 {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("/public/images/secondSection.png");
+}
+
+.image-3 {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("/public/images/thirdSection.png");
+}
+
+.image-4 {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("/public/images/fourthSection.png");
 }
